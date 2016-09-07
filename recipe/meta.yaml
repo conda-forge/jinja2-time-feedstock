@@ -1,4 +1,4 @@
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 {% set gh_org = "hackebrot" %}
 {% set gh_repo = "jinja2-time" %}
 
@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ gh_repo }}-{{ version }}.tar.gz
   url: https://github.com/{{ gh_org }}/{{ gh_repo }}/archive/{{ version }}.tar.gz
-  sha256: a1c48392319077f3ec968028fdc9a2efbff74ad0298a8c45a7de7f35357ff5e2
+  sha256: 0e647e525ba47523fa400a58fdec090b1cc6dcec4afbf095ee01e9e589e5a5ef
 
 build:
   number: 0
@@ -17,8 +17,6 @@ build:
 
 requirements:
   build:
-    - arrow
-    - jinja2
     - python
   run:
     - arrow
@@ -26,10 +24,11 @@ requirements:
     - python
 
 test:
-  files:
-    - requirements.txt
   requires:
     - pytest
+    - freezegun
+  commands:
+    - py.test {{ environ["SRC_DIR"] }}
 
 about:
   home: https://github.com/{{ gh_org }}/{{ gh_repo }}
