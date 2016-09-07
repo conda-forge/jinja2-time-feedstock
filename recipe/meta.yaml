@@ -26,8 +26,9 @@ requirements:
 
 test:
   requires:
-    - pytest
     - freezegun
+    - pytest
+    - python
   commands:
     - py.test {{ environ["SRC_DIR"] }}
 
