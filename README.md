@@ -11,6 +11,18 @@ Summary: Jinja2 Extension for Dates and Times
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jinja2-time-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jinja2-time-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/jinja2-time-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jinja2-time-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jinja2-time-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jinja2-time-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jinja2-time/badges/version.svg)](https://anaconda.org/conda-forge/jinja2-time)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jinja2-time/badges/downloads.svg)](https://anaconda.org/conda-forge/jinja2-time)
+
 Installing jinja2-time
 ======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `jinja2-time` available on your pl
 ```
 conda search jinja2-time --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jinja2-time-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jinja2-time-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jinja2-time-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jinja2-time-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jinja2-time-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jinja2-time-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jinja2-time/badges/version.svg)](https://anaconda.org/conda-forge/jinja2-time)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jinja2-time/badges/downloads.svg)](https://anaconda.org/conda-forge/jinja2-time)
 
 
 Updating jinja2-time-feedstock
