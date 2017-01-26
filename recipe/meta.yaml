@@ -12,7 +12,7 @@ source:
   sha256: 0e647e525ba47523fa400a58fdec090b1cc6dcec4afbf095ee01e9e589e5a5ef
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -25,12 +25,14 @@ requirements:
     - python
 
 test:
+  source_files:
+    - .
   requires:
     - freezegun
     - pytest
     - python
   commands:
-    - py.test {{ environ["SRC_DIR"] }}
+    - py.test
 
 about:
   home: https://github.com/{{ gh_org }}/{{ gh_repo }}
