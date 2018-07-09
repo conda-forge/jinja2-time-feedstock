@@ -14,14 +14,15 @@ Summary: Jinja2 Extension for Dates and Times
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jinja2-time-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jinja2-time-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jinja2-time-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jinja2-time-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jinja2-time-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jinja2-time-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jinja2-time-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jinja2-time-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jinja2-time/badges/version.svg)](https://anaconda.org/conda-forge/jinja2-time)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jinja2-time/badges/downloads.svg)](https://anaconda.org/conda-forge/jinja2-time)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jinja2--time-green.svg)](https://anaconda.org/conda-forge/jinja2-time) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jinja2-time.svg)](https://anaconda.org/conda-forge/jinja2-time) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jinja2-time.svg)](https://anaconda.org/conda-forge/jinja2-time) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jinja2-time.svg)](https://anaconda.org/conda-forge/jinja2-time) |
 
 Installing jinja2-time
 ======================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
