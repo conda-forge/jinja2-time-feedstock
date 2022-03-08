@@ -40,6 +40,7 @@ test:
 about:
   home: https://github.com/hackebrot/jinja2-time
   license: MIT
+  license_file: LICENSE
   summary: Jinja2 Extension for Dates and Times
 
 extra:
