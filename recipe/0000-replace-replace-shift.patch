@@ -1,0 +1,11 @@
+--- jinja2_time/jinja2_time.py	2022-03-08 08:19:07.405491468 -0600
++++ jinja2_time/jinja2_time.py	2022-03-08 08:19:23.217557370 -0600
+@@ -23,7 +23,7 @@
+         for param in offset.split(','):
+             interval, value = param.split('=')
+             replace_params[interval.strip()] = float(operator + value.strip())
+-        d = d.replace(**replace_params)
++        d = d.shift(**replace_params)
+ 
+         if datetime_format is None:
+             datetime_format = self.environment.datetime_format
