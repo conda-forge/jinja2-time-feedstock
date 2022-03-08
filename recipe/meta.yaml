@@ -8,6 +8,7 @@ source:
   url: https://pypi.io/packages/source/j/jinja2-time/jinja2-time-{{ version }}.tar.gz
   sha256: d14eaa4d315e7688daa4969f616f226614350c48730bfa1692d2caebd8c90d40
   patches:
+    # remove after https://github.com/hackebrot/jinja2-time/pull/19 (or similar)
     - 0000-replace-replace-shift.patch
 
 build:
