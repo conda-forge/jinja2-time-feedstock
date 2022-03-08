@@ -22,7 +22,7 @@ requirements:
     - python
     - setuptools
   run:
-    - arrow
+    - arrow <0.14.5
     - jinja2
     - python
 
